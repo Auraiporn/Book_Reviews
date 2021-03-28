@@ -1,0 +1,125 @@
+.App {
+  height: 100vh;
+  display: flex;
+}
+.App_Aside {
+  width: 50%;
+  background-image: url(./images/book.png);
+  color: white;
+  text-align: center;
+
+}
+.App_Search {
+  width: 50%;
+  background-color: #E3C5BB;
+  padding: 25px 40px;
+  overflow: auto;
+  color: black;
+}
+.Text_Display{
+  background: #262626;
+  opacity: 0.7;
+}
+h1 {
+  margin-top: 100px;
+  font-size: 100px;
+  margin-bottom: -30px;
+  
+}
+.App_Aside h2{
+  font-size: 70px;
+  margin-bottom: -40px;
+  font-weight:normal;
+}
+h3{
+  font-size: 55px;
+  font-weight: lighter;
+}
+
+.App_Search h2{
+  text-align: left;
+  font-size: 70px;
+}
+
+/* .Search{
+  display:flex;
+} */
+li {
+  display: flex;
+  justify-content:space-evenly;
+}
+/* .SearchOptions {
+  display: flex;
+} */
+.SearchOptions img{
+  width: 200px;
+}
+.SearchField {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  text-align: left;
+}
+.SearchField_Label {
+  margin-left: 10px;
+}
+.SearchField_Input::placeholder {
+  font-size: 22px;
+  font-weight: lighter;
+}
+.SearchField_Input {
+  margin-left: 5px;
+  background-color: rgba(0,0,0,0);
+  color:#262626;
+  border: none;
+  height: 30px;
+  transition:height 1 s;
+  -webkit-transition:height 1 s;
+  border-bottom: 1px solid #504838;
+  display: flex;
+  width: 70%;
+  margin-top: 20px;
+  font-size: 22px;
+}
+.SearchField_Input:focus {
+  height: 40px;
+  font-size: 21x;
+}
+.SearchField_Button {
+  background-color: #262626;
+  color: #fff; 
+  padding: 13px 80px;
+  font-size: 20px;
+  margin-top: 35px;
+  margin-bottom: -100px;
+}
+.Search_Link_Back_To_Menu{
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  text-align: right;
+  border-bottom: 1px solid #FF1B1C;
+  margin-top: 0%;
+  margin-left: 40px;
+}
+
+.Display_Results {
+  font-size: 30px;
+}
+
+.Display_Results a {
+  color: #FF1B1C;
+  text-decoration: none;
+}
+
+.Quote {
+  background-image: url(./images/quote_bg.png);
+  float:left;
+  font-size: 22px;
+  margin-top: -10px;
+  padding: 10px 30px;
+  color: black;
+  font-weight: bold;
+  border: 10px #262626;
+  border-radius: 10%;
+}
